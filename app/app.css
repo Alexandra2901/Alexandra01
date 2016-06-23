@@ -1,0 +1,71 @@
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+#sect {
+    background-image: url(/home/internship/Desktop/DeaconescuAlexandra/app/assets/images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+nav {
+    float: right;
+}
+li {
+    display: inline;
+}
+h3 {
+    float: left;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+#centertext {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#buton {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    width: 130px;
+    margin-left: 695px;
+    border-radius: 20%;
+}
+#middlepart {
+    background-color: #3AA8C1;
+    text-align: center;
+    height: 200px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: white;
+}
+img {
+    height: auto;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+  }
+a{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#rndtext{
+  padding-top: 20px;
+}
+
+#textnb2{
+  background-color: black;
+  color:white;
+  text-align: center;
+  margin-top: -20px;
+  height: 100px;
+}
+
+#rndtextnb2{padding-top: 20px;}
