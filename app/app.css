@@ -3,7 +3,7 @@
     zoom: 1;
 }
 #sect {
-    background-image: url(/home/internship/Desktop/DeaconescuAlexandra/app/assets/images/bg2.jpg);
+    background-image: url(/home/internship/Alexandra01/app/assets/images/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
@@ -14,7 +14,7 @@ nav {
 li {
     display: inline;
 }
-h3 {
+#sect h3 {
     float: left;
     color: white;
 }
@@ -27,45 +27,108 @@ a {
     font-size: 30px;
     text-align: center;
 }
-#buton {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    border: 2px solid white;
-    width: 130px;
-    margin-left: 695px;
-    border-radius: 20%;
-}
+
 #middlepart {
     background-color: #3AA8C1;
     text-align: center;
-    height: 200px;
+    height: 250px;
     margin-top: -20px;
     font-size: 20px;
     color: white;
 }
-img {
-    height: auto;
-    width: 50px;
-    border: 1px solid black;
-    border-radius: 100%;
-    padding: 10px;
+
+.col-inline{
+  display:inline-block;
+  padding:10px;
+
+}
+.col-inline .image-wrapper{
+  height:100px;
+  width:100px;
+  border: 1px solid black;
+  border-radius: 100%;
+  position:relative;
+}
+.col-inline img {
+    height:50px;
+    width: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -25px;
+    margin-left: -25px;
   }
 a{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  size:30px;
 }
 
 #rndtext{
   padding-top: 20px;
 }
 
-#textnb2{
+#lastsection{
   background-color: black;
   color:white;
   text-align: center;
   margin-top: -20px;
-  height: 100px;
+  height: 700px;
 }
 
-#rndtextnb2{padding-top: 20px;}
+#rndtextnb2{
+  padding-top: 20px;
+font-weight: bold;
+font-size: 20px;
+text-align: center;}
+
+.container{
+  margin:auto;
+  width:1200px;
+}
+
+.col-floated{
+  width:33.3%;
+  float:left;
+  padding-right: 15px;
+  padding-left:15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+
+}
+.col-floated img{
+  width:100%;
+
+}
+
+footer h1{
+  text-align: center;
+  color:black;
+}
+
+.col-floated a{
+  transition:all .2s ease-in-out;
+  display: inline-block;
+}
+.col-floated a:hover{
+  transform: scale(1.1);
+  opacity: 0.3;
+}
+
+.butonas a{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  width: 130px;
+  border-radius: 20%;
+  margin-left: 850px;
+  background:transparent;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.butonas a:hover{
+  background: #3AA8C1;
+}
