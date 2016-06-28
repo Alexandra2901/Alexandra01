@@ -1,16 +1,11 @@
-.clearfix {
-    overflow: auto;
-    zoom: 1;
-}
 #sect {
     background-image: url(/home/internship/Alexandra01/app/assets/images/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
+    margin-top: -20px;
 }
-nav {
-    float: right;
-}
+
 li {
     display: inline;
 }
@@ -26,27 +21,19 @@ a {
     color: white;
     font-size: 30px;
     text-align: center;
+    padding-top: 30px;
 }
-#middlepart {
-    background-color: #3AA8C1;
+.image-wrapper {
+    margin: auto;
     text-align: center;
-    height: 250px;
-    margin-top: -20px;
-    font-size: 20px;
-    color: white;
-}
-.col-inline {
-    display: inline-block;
-    padding: 10px;
-}
-.col-inline .image-wrapper {
     height: 100px;
     width: 100px;
     border: 1px solid black;
     border-radius: 100%;
     position: relative;
 }
-.col-inline img {
+ .image-wrapper img {
+    text-align: center;
     height: 50px;
     width: auto;
     position: absolute;
@@ -67,19 +54,26 @@ a {
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: -20px;
-    height: 700px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.icon-section{
+  background-color: #3AA8C1;
+  text-align: center;
+  height:auto;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: white;
+
 }
 #rndtextnb2 {
     padding-top: 20px;
+    padding-bottom: 40px;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
 }
-.container {
-    margin: auto;
-    width: 1200px;
-}
+
 .col-floated {
     width: 33.3%;
     float: left;
@@ -103,6 +97,10 @@ footer h1 {
     transform: scale(1.1);
     opacity: 0.3;
 }
+.butonas{
+  display:block;
+  text-align: center;
+}
 .butonas a {
     text-align: center;
     color: white;
@@ -110,7 +108,7 @@ footer h1 {
     border: 2px solid white;
     width: 130px;
     border-radius: 20%;
-    margin-left: 850px;
+    text-decoration: none;
     background: transparent;
     transition-property: background;
     transition-duration: 1s;
