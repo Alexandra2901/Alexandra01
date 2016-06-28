@@ -1,12 +1,8 @@
-.clearfix {
-    overflow: auto;
-    zoom: 1;
-}
-nav {
-    float: right;
-}
 li {
     display: inline;
+}
+ul{
+  float:right;
 }
 #headersection {
     background-color: #2f2a2a;
@@ -25,10 +21,7 @@ li {
     font-size: 20px;
     margin-right: 5px;
 }
-.header {
-    width: 70%;
-    margin: auto;
-}
+
 #formsection {
     padding-top: 100px;
     background-color: #3edbb7;
@@ -68,7 +61,7 @@ footer h1 {
 ::-webkit-input-placeholder {
     color: white;
 }
-.butonLogin a {
+#butonL {
     color: white;
     font-size: 20px;
     text-decoration: none;
@@ -76,6 +69,7 @@ footer h1 {
     border: 1px solid white;
     border-radius: 5px;
     text-align: center;
+    background: transparent;
 }
 .butonLogin {
     padding-top: 20px;
