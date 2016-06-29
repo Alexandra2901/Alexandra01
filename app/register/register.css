@@ -2,7 +2,9 @@
     overflow: auto;
     zoom: 1;
 }
-
+ul{
+  float:right
+}
 li {
     display: inline;
 }
