@@ -1,66 +1,3 @@
-li {
-    display: inline;
-}
-ul{
-  float:right;
-}
-#headersection {
-    background-color: #2f2a2a;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-}
-#headersection h3 {
-    float: left;
-    color: white;
-    font-size: 20px;
-}
-#headersection a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    margin-right: 5px;
-}
-
-#formsection {
-    padding-top: 100px;
-    background-color: #3edbb7;
-    color: white;
-    text-align: center;
-    height: 500px;
-}
-footer h1 {
-    text-align: center;
-    color: black;
-}
-.form-wrapper h1 {
-    margin-left: 10px;
-}
-.form-wrapper label, input {
-    display: block;
-}
-.form-wrapper {
-    width: 30%;
-    margin: auto;
-}
-.login-inputs {
-    border: none;
-}
-.login-inputs label {
-    text-align: left;
-    padding-top: 20px;
-    font-weight: bold;
-}
-.login-inputs input {
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: #3edbb7;
-    width: 100%;
-    height: 30px;
-}
-::-webkit-input-placeholder {
-    color: white;
-}
 #butonL {
     color: white;
     font-size: 20px;
@@ -83,11 +20,7 @@ footer h1 {
 .butonCheck label, input {
     display: inline-block;
 }
-.butoane {
-    border: none;
-    text-align: right;
-}
-.register h1, a {
+.register h1{
     display: inline-block;
     font-size: 15px;
 }
@@ -96,13 +29,13 @@ footer h1 {
     color: white;
     font-weight: bold;
     font-size: 17px;
+    display: inline-block;
+    font-size: 15px;
 }
 .register label {
     display: inline-block;
 }
-.reg {
+.registration {
     border: none;
-}
-.reg {
     text-align: right;
 }

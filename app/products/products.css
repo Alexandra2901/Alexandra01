@@ -1,20 +1,16 @@
-.shop-navbar a{
-  color:black;
-  font-weight: bold;
-}
-#part2 h1{
+#second-section h1{
   color:black;
   font-weight: bold;
   font-size: 50px;
   text-align: center;
   padding-top: 70px;
 }
-#part2{
+#second-section{
   background-color: #3edbb7;
   height: 200px;
   margin-top: -20px;
 }
-#rndtext{
+#lastpart-text1{
   padding-top:10px;
   text-align: center;
   color:black;
@@ -22,7 +18,7 @@
   font-weight: bold;
   padding-bottom: 10px;
 }
-#rndtxt{
+#lastpart-text2{
   padding-bottom: 20px;
 }
 #lastpart{
@@ -124,11 +120,4 @@ opacity:0.65;
 .cart a:hover{
   color:white;
   text-decoration: none;
-}
-
-footer{
-  text-align: center;
-  font-weight: bold;
-  font-size: 30px;
-  padding-top: 40px;
 }

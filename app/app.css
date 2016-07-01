@@ -1,15 +1,11 @@
-#sect {
+#second-section {
     background-image: url(/home/internship/Alexandra01/app/assets/images/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
     margin-top: -20px;
 }
-
-li {
-    display: inline;
-}
-#sect h3 {
+#second-section h3 {
     float: left;
     color: white;
 }
@@ -17,7 +13,7 @@ a {
     color: white;
     text-decoration: none;
 }
-#centertext {
+#second-section-text {
     color: white;
     font-size: 30px;
     text-align: center;
@@ -47,7 +43,7 @@ a {
     padding-right: 5px;
     size: 30px;
 }
-#rndtext {
+#icon-section-text {
     padding-top: 20px;
 }
 #lastsection {
@@ -66,7 +62,7 @@ a {
   color: white;
 
 }
-#rndtextnb2 {
+#lastsection-text {
     padding-top: 20px;
     padding-bottom: 40px;
     font-weight: bold;
@@ -97,11 +93,11 @@ footer h1 {
     transform: scale(1.1);
     opacity: 0.3;
 }
-.butonas{
+.learn-more-button{
   display:block;
   text-align: center;
 }
-.butonas a {
+.learn-more-button a {
     text-align: center;
     color: white;
     font-size: 20px;
@@ -114,6 +110,6 @@ footer h1 {
     transition-duration: 1s;
     transition-timing-function: linear;
 }
-.butonas a:hover {
+.learn-more-button a:hover {
     background: #3AA8C1;
 }
