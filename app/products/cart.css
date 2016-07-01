@@ -1,0 +1,83 @@
+#second-section h1{
+  padding-top:30px;
+}
+.butoane {
+    display: inline-block;
+}
+.butoane input {
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-radius: 0;
+    color: black;
+}
+.butoane .button1 {
+    background-color: #FF2800;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 5px 0px 0px 5px;
+    display: inline-block;
+    color: white;
+}
+.butoane .button2 {
+    background-color: #FF2800;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 0 5px 5px 0;
+    display: inline-block;
+    color: white;
+}
+.tabel {
+    padding: 10px;
+    text-align: left;
+}
+.number-display {
+    width: 40px;
+    height: 30px;
+}
+.tabel img{
+  width: 40px;
+  height: 40px;
+}
+}
+#table-left tr{
+  border-bottom: 1px solid grey;
+}
+#table-left td {
+    height: 60px;
+    border-bottom: 1px solid grey;
+}
+.buton-cart{
+  float:right;
+  background-color: #FF2800;
+}
+label{
+  font-weight: bold;
+}
+.form-part2{
+  padding-top: 10px;
+  border-radius: 5px;
+  text-align: left;
+  border-radius: 5px;
+}
+.form-part2 label{
+  text-align: left;
+}
+.buton-update{
+  padding-top: 10px;
+}
+#total-price{
+  color:#FF2800;
+  font-size: 30px;
+}
+#right-table tr{
+  border-top: 1px solid grey;
+}
+#right-table td {
+    height: 40px;
+    border-top: 1px solid grey;
+}

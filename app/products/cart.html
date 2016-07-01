@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Store</title>
+    <link rel="stylesheet" type="text/css" href="/home/internship/Alexandra01/app/assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="cart.css" />
+    <link rel="stylesheet" type="text/css" href="/home/internship/Alexandra01/app/style.css" />
+    <script src="/home/internship/Alexandra01/app/assets/js/jquery-2.2.4.js"></script>
+    <script src="/home/internship/Alexandra01/app/assets/bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body id="top">
+    <header id="head">
+        <nav class="navbar navbar-default navbar-static-top shop-navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" data-target="#myNavbar" data-toggle="collapse" class="btn btn-default btn-lg navbar-toggle">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                    <a href="products.html" class="navbar-brand">QShop</a>
+                </div>
+                <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="page2.html">About</a></li>
+                        <li><a href="/home/internship/Alexandra01/app/login/login.html">Login</a></li>
+                        <li><a href="/home/internship/Alexandra01/app/contact/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="second-section">
+        <div class="container">
+            <h1>Shopping Cart</h1>
+            <div class="tabel">
+                <table style="width:100%" id="table-left">
+                    <tr>
+                        <td></td>
+                        <td><strong>Product</strong></td>
+                        <td><strong>Price</strong></td>
+                        <td><strong>Quantity</strong></td>
+                        <td><strong>Total</strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/home/internship/Alexandra01/app/assets/images/products/product-1.jpg">
+                        </td>
+                        <td>Photo</td>
+                        <td>$150</td>
+                        <td>
+                            <div class="butoane">
+                                <div class="button1">-</div>
+                                <input type="text" class="form-control number-display" placeholder="1">
+                                <div class="button2">+</div>
+                            </div>
+                        </td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/home/internship/Alexandra01/app/assets/images/products/product-2.jpg">
+                        </td>
+                        <td>Painting</td>
+                        <td>$100</td>
+                        <td>
+                            <div class="butoane">
+                                <div class="button1">-</div>
+                                <input type="text" class="form-control number-display" placeholder="2">
+                                <div class="button2">+</div>
+                            </div>
+                        </td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="/home/internship/Alexandra01/app/assets/images/products/product-3.jpg">
+                        </td>
+                        <td>Illustration</td>
+                        <td>$20</td>
+                        <td>
+                            <div class="butoane">
+                                <div class="button1">-</div>
+                                <input type="text" class="form-control number-display" placeholder="1">
+                                <div class="button2">+</div>
+                            </div>
+                        </td>
+                        <td>$20</td>
+                    </tr>
+                </table>
+            </div>
+            <button type="button" class="btn btn-primary buton-cart" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Update Cart
+            </button>
+        </div>
+    </section>
+    <section id="last-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <section id="form-section">
+                        <div class="formwrapper">
+                            <form method="post">
+                                <legend>
+                                    <h1>Calculate Shipping</h1>
+                                </legend>
+                                <fieldset class="shipping-inputs">
+                                    <div class="country-part">
+                                        <label>Country</label>
+                                        <select class="form-control">
+                                            <option>Romania</option>
+                                            <option>Greece</option>
+                                            <option>France</option>
+                                            <option>Germany</option>
+                                            <option>Sweden</option>
+                                        </select>
+                                    </div>
+                                    <div class="row">
+                                    <div class="col-sm-6 form-part2">
+                                    <div class="city-part">
+                                        <label>City</label>
+                                        <input name="city" class="form-control" type="text" placeholder="Bucharest" required />
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6 form-part2">
+                                    <div class="zip-part">
+                                        <label>Zip Code</label>
+                                        <input name="pass" class="form-control" type="text" placeholder="" required />
+                                    </div>
+                                  </div>
+                                </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                      </section>
+                      <div class="buton-update">
+                      <button type="button" class="btn btn-primary buton-cart" data-toggle="button" aria-pressed="false" autocomplete="off">
+                          Update Totals
+                      </button>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                  <h1>Cart Total</h1>
+                  <div class="tabel">
+                      <table style="width:100%" id="right-table">
+                          <tr>
+                              <td>Cart Subtotal</td>
+                              <td>$650</td>
+                          </tr>
+                          <tr>
+                              <td>Shipping</td>
+                              <td>Free</td>
+                          </tr>
+                          <tr>
+                              <td>Order total</td>
+                              <td id="total-price">$650</td>
+                          </tr>
+                      </table>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </section>
+</body>
+<footer>
+  <p>@Summer Internship 2016</p>
+</footer>
+</html>
