@@ -1,20 +1,15 @@
-.header {
-    width: 70%;
+.register-section {
+    background: #16A085;
+    opacity: 0.87;
+}
+
+
+.register {
+    width: 50%;
     margin: auto;
+    text-align: right;
 }
-#butonR {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    margin-right: 5px;
-    border: 1px solid white;
-    border-radius: 5px;
-    text-align: center;
-    background: transparent;
-}
-.butonRegister {
-    padding-top: 20px;
-    display: inline-block;
-    width: 100px;
-    height: 10px;
+.q-form{
+    width: 50%;
+    margin:auto;
 }

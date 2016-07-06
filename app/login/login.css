@@ -1,41 +1,27 @@
-#butonL {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    margin-right: 5px;
-    border: 1px solid white;
-    border-radius: 5px;
-    text-align: center;
-    background: transparent;
+
+
+.login-section {
+    margin-top: 70px ;
+    padding: 70px 0 50px 0;
+    background: #16A085;
+    opacity: 0.87;
 }
-.butonLogin {
-    padding-top: 20px;
-    display: inline-block;
-    width: 80px;
-    height: 10px;
+.q-form,
+.register-section{
+    width: 50%;
+    margin:auto;
 }
-.butonCheck {
-    display: inline-block;
-}
-.butonCheck label, input {
-    display: inline-block;
-}
-.register h1{
-    display: inline-block;
-    font-size: 15px;
-}
-.register a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-    display: inline-block;
-    font-size: 15px;
-}
-.register label {
-    display: inline-block;
-}
-.registration {
-    border: none;
+.register-section {
     text-align: right;
+    clear: both;
+}
+
+.q-form .inline-checkbox {
+    display: inline-block;
+    margin-left: 10px ;
+}
+/*Footer*/
+.btn.btn-register {
+    color: #fff;
+    font-weight: 900;
 }

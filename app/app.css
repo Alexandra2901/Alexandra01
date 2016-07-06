@@ -1,35 +1,101 @@
-#second-section {
-    background-image: url(/home/internship/Alexandra01/app/assets/images/bg2.jpg);
-    background-size: cover;
+
+#hero-banner {
+    margin-top: 70px;
+    padding-top: 100px;
+    height: 700px;
+    background-image: url('assets/images/bg2.jpg');
     background-repeat: no-repeat;
-    height: 300px;
-    margin-top: -20px;
+    background-size: cover;
+
 }
-#second-section h3 {
-    float: left;
-    color: white;
-}
-a {
-    color: white;
-    text-decoration: none;
-}
-#second-section-text {
-    color: white;
-    font-size: 30px;
+
+#hero-banner #banner-text {
     text-align: center;
-    padding-top: 30px;
 }
-.image-wrapper {
-    margin: auto;
-    text-align: center;
-    height: 100px;
+
+#hero-banner #banner-text h1 {
+    margin-top: 0;
+}
+
+#hero-banner #banner-text h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+
+}
+
+#hero-banner #banner-text h3 {
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+
+}
+
+#hero-banner #banner-text a {
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#hero-banner .learn-more {
+    color: white;
+    background: transparent;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+#hero-banner .learn-more:hover {
+    background: #34b1c4;
+}
+.icon-cols{
+    padding-top: 40px;
+}
+.col-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.col-image a {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+
+}
+
+.col-image a:hover {
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+
+#section-one {
+    overflow: auto;
+    background-color: #34b1c4;;
+    color: white;
+    padding: 60px 20px;
+}
+
+#section-one h1 {
+    margin: 0;
+    font-weight: lighter;
+
+}
+
+#section-one h2 {
+    font-weight: lighter;
+}
+
+#section-one .icon-cols .image-wrapper {
     width: 100px;
-    border: 1px solid black;
-    border-radius: 100%;
+    height: 100px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    border-radius: 50%;
     position: relative;
 }
- .image-wrapper img {
-    text-align: center;
+
+#section-one .icon-cols img {
     height: 50px;
     width: auto;
     position: absolute;
@@ -38,78 +104,55 @@ a {
     margin-top: -25px;
     margin-left: -25px;
 }
-a {
-    padding-left: 5px;
-    padding-right: 5px;
-    size: 30px;
+
+#section-one .icon-cols .user-icon {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
 }
-#icon-section-text {
-    padding-top: 20px;
-}
-#lastsection {
-    background-color: black;
+
+#section-two {
+    background-color: #393f43;
     color: white;
-    text-align: center;
-    height: auto;
-    padding-bottom: 20px;
-}
-.icon-section{
-  background-color: #3AA8C1;
-  text-align: center;
-  height:auto;
-  padding-bottom: 20px;
-  font-size: 20px;
-  color: white;
-
-}
-#lastsection-text {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
+    padding: 10px 0 70px 0;
 }
 
-.col-floated {
-    width: 33.3%;
-    float: left;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-    box-sizing: border-box;
+#section-two h1 {
+    padding: 20px 0;
+    margin: 0;
+
 }
-.col-floated img {
-    width: 100%;
+
+#section-two h4 {
+    font-weight: 400;
+
 }
-footer h1 {
+
+footer {
     text-align: center;
-    color: black;
+    height: 100px;
+    background: #fff;
 }
-.col-floated a {
-    transition: all .2s ease-in-out;
+
+footer .copyright-container, footer .back-to-top {
     display: inline-block;
 }
-.col-floated a:hover {
-    transform: scale(1.1);
-    opacity: 0.3;
+
+footer .back-to-top a {
+    color: #16A085;
+    opacity: 0.87;
+    margin-left: 10px;
 }
-.learn-more-button{
-  display:block;
-  text-align: center;
+
+footer .back-to-top a i {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
 }
-.learn-more-button a {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    border: 2px solid white;
-    width: 130px;
-    border-radius: 20%;
-    text-decoration: none;
-    background: transparent;
-    transition-property: background;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-}
-.learn-more-button a:hover {
-    background: #3AA8C1;
+
+footer .back-to-top a i:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
